@@ -24,7 +24,6 @@ public class MailingService {
     private final PostOfficeService postOfficeService;
 
     public MailingIdentityDTO register (RegisterMailingDTO registerMailingDTO) {
-        System.out.println(registerMailingDTO);
 
         Mailing mailing = new Mailing();
         MailingState mailingState = new MailingState();
